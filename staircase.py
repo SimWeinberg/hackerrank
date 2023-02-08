@@ -20,6 +20,10 @@ def staircase(n):
         multiplier = multiplier + 1
         i += 1
     print("#"*n)
+
+def staircase(n):
+    for stairs in range(1, n + 1):
+        print(' ' * (n - stairs) + '#' * stairs)
     
     
 if __name__ == '__main__':
