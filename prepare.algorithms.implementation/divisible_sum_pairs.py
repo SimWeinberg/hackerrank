@@ -8,3 +8,4 @@ def divisibleSumPairs(n, k, ar):
                 count += 1
     return(count)
             
+print(divisibleSumPairs(6,3,[1,3,2,6,1,2]))
